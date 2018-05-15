@@ -1,0 +1,5 @@
+function NOMEDOARQUIVO = removeExt(FILENAME)
+
+NOMEDOARQUIVO = FILENAME(1:length(FILENAME)-4);
+
+end

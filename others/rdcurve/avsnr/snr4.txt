@@ -1,0 +1,14 @@
+1													       // mode 0=diffSnr  1=percentage
+28.47 32.07 34.77 36.87		      // A first SNR values,        Y direkte
+24.75 45.61 73.11 105.75        // A first bit rate  values   X=log(bitrate)
+28.58 32.18 34.88 36.97         // B second SNR values 				Y direkte
+24.04 42.69 68.58 98.50         // B second bit rate values   X=log(bitrate)
+
+input parameters for the SNR integration routine 
+
+
+1													       // mode 0=dsnr, 1=percentage
+28.47 32.07 34.77 36.87		      // A first SNR values,        X direkte
+24.75 45.61 73.11 105.75        // A first bit rate  values   Y=log(bitrate)
+28.58 32.18 34.88 36.97         // B second SNR values 				X direkte
+24.04 42.69 68.58 98.50         // B second bit rate values   Y=log(bitrate)
